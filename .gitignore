@@ -1,0 +1,5 @@
+node_modules/
+temp/
+test-results/
+.idea/
+.DS_Store

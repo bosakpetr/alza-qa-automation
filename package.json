@@ -1,0 +1,24 @@
+{
+  "name": "alza",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "testcafe chrome tests/add-to-cart.test.ts"
+  },
+  "devDependencies": {
+    "@types/minimatch": "^6.0.0",
+    "minimatch": "^10.1.1",
+    "typescript": "^5.5.3"
+  },
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "testcafe": "^3.7.3"
+  },
+  "volta": {
+    "node": "22.16.0"
+  }
+}
