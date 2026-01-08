@@ -1,5 +1,4 @@
-import { SearchResultsPage } from '../pages/search-result-page';
-import { Selector, t } from 'testcafe';
+import {SearchResultsPage} from '../pages/search-result-page';
 import {Header} from "../pages/components/header";
 import {CookieBanner} from "../pages/components/cookie-banner";
 import {OrderPage} from "../pages/order-page";
@@ -16,7 +15,7 @@ fixture `Košík na Alza.cz`
         await cookies.acceptCookiesAll();
     });
 
-test('Vyhledání produktu a vložení do košíku', async t => {
+test('Vyhledání produktu a vložení do košíku', async () => {
     const productName = 'iPhone 15 Pro';
 
     // Vyhledání produktu v search baru
